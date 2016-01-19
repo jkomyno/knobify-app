@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Root\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\knobify\Android\Knobify - Presettings\app\build\intermediates\pre-dexed\debug\okio-1.6.0-f27867b090eb1b2b107d851b93411a6f5c1906dc.jar" />
+    </item>
+    <item
+        jar="C:\knobify\Android\Knobify - Presettings\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\knobify\Android\Knobify - Presettings\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-ab02068fee99eff21f78c81e18d2f5ba42acafeb.jar" />
+    </item>
+    <item
+        jar="C:\knobify\Android\Knobify - Presettings\app\build\intermediates\exploded-aar\io.card\android-sdk\5.1.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ec2638fd6b529bd03414ee77181ac85044359b29">
+        <dex dex="C:\knobify\Android\Knobify - Presettings\app\build\intermediates\pre-dexed\debug\classes-ffb815164feb95764644b30643ffa35f3cab7da1.jar" />
+    </item>
+    <item
+        jar="C:\knobify\Android\Knobify - Presettings\app\build\intermediates\exploded-aar\com.github.paolorotolo\appintro\3.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="bb58484b10248cbf93dddee3d981d2e61f27f6e5">
+        <dex dex="C:\knobify\Android\Knobify - Presettings\app\build\intermediates\pre-dexed\debug\classes-d3b9a3c9a12777d07e75dfc5d9a4bad0fc69e3aa.jar" />
+    </item>
+    <item
+        jar="C:\knobify\Android\Knobify - Presettings\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\knobify\Android\Knobify - Presettings\app\build\intermediates\pre-dexed\debug\classes-55cafd24cf36c8bb646251f380c70a1335c90177.jar" />
+    </item>
+    <item
+        jar="C:\knobify\Android\Knobify - Presettings\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="C:\knobify\Android\Knobify - Presettings\app\build\intermediates\pre-dexed\debug\classes-6da197f68db99ce4af913d71489046b89e466179.jar" />
+    </item>
+    <item
+        jar="C:\Users\Root\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\knobify\Android\Knobify - Presettings\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-144e0249ed976c0fd1997c6be4b0da8a2daba72e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Root\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.7.2\20f6463eb19ac61960c5d91a094c2f4f0727dc2e\okhttp-2.7.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="20f6463eb19ac61960c5d91a094c2f4f0727dc2e">
+        <dex dex="C:\knobify\Android\Knobify - Presettings\app\build\intermediates\pre-dexed\debug\okhttp-2.7.2-d338ddfab4d8d53d379e789e26eac7dc939e37dc.jar" />
+    </item>
+    <item
+        jar="C:\knobify\Android\Knobify - Presettings\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\knobify\Android\Knobify - Presettings\app\build\intermediates\pre-dexed\debug\classes-e8f8db3f64ff63f1b793615b8c91ee895ae2db00.jar" />
+    </item>
+    <item
+        jar="C:\knobify\Android\Knobify - Presettings\app\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.12.5\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a68b6bead586f0d0625f82890f93bb8ddabefcf1">
+        <dex dex="C:\knobify\Android\Knobify - Presettings\app\build\intermediates\pre-dexed\debug\classes-1e1fc73e2a8040309f142caaeb7e5f84f65adbfb.jar" />
+    </item>
+    <item
+        jar="C:\knobify\Android\Knobify - Presettings\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\knobify\Android\Knobify - Presettings\app\build\intermediates\pre-dexed\debug\classes-7284614cad3cf58b05bfe30fedc0e8f8c01c7bdc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Root\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.4.0\f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2\picasso-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="C:\knobify\Android\Knobify - Presettings\app\build\intermediates\pre-dexed\debug\picasso-2.4.0-0ce2bc2e2cab6efd07554468b8db8416598dfa07.jar" />
+    </item>
+    <item
+        jar="C:\Users\Root\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.8.0\a517f29ed06be2b2879524fcd94b6e9b36e2e0b5\retrofit-1.8.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a517f29ed06be2b2879524fcd94b6e9b36e2e0b5">
+        <dex dex="C:\knobify\Android\Knobify - Presettings\app\build\intermediates\pre-dexed\debug\retrofit-1.8.0-84485cee6070167c24ec81be3a8b799b9fa598a0.jar" />
+    </item>
+    <item
+        jar="C:\knobify\Android\Knobify - Presettings\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\knobify\Android\Knobify - Presettings\app\build\intermediates\pre-dexed\debug\classes-84a959081396c2125c5fea37598c676e2ae34c86.jar" />
+    </item>
+    <item
+        jar="C:\Users\Root\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3\5fc52c41ef0239d1093a1eb7c3697036183677ce\gson-2.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="C:\knobify\Android\Knobify - Presettings\app\build\intermediates\pre-dexed\debug\gson-2.3-fdce985dea7701c9656514bd7bc8c371dac11a25.jar" />
+    </item>
+
+</items>

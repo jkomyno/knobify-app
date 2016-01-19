@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Main" />
+        <item
+            android:id="@+id/nav_equalizer"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Equalizer" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="@string/nav_subtitle_1">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/nav_share"
+                android:showAsAction="ifRoom"
+                android:actionProviderClass=
+                    "android.widget.ShareActionProvider"/>
+            <item
+                android:id="@+id/nav_mail"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/nav_mail" />
+        </menu>
+    </item>
+
+</menu>
+<!-- From: file:/C:/knobify/Android/Knobify%20-%20Presettings/app/src/main/res/menu/activity_main_drawer.xml -->

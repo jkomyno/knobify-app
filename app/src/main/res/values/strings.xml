@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- General -->
+    <string name="app_name">Knobify</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Username</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registered! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Username</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_subtitle_1">Communication</string>
+    <string name="nav_share">Share</string>
+    <string name="nav_send">Send</string>
+    <string name="nav_mail">Contact Me</string>
+
+    <!-- Main Menu -->
+    <string name="settings">Settings</string>
+
+    <!-- Validate.class -->
+    <string name="val_password">Please enter a password between 6 and 15 characters</string>
+    <string name="val_email">Please enter a valid email</string>
+    <string name="val_username">Please enter a nickname between 4 and 14 characters</string>
+
+    <!-- AppIntro Slider -->
+    <string name="skip">SKIP</string>
+    <string name="title_1">First Title</string>
+    <string name="title_2">Second Title</string>
+    <string name="title_3">Third Title</string>
+    <string name="title_4">Fourth Title</string>
+    <string name="descr_1">Description 1</string>
+    <string name="descr_2">Description 2</string>
+    <string name="descr_3">Description 3</string>
+    <string name="descr_4">GET STARTED</string>
+
+    <!-- Pref Headers-->
+    <string name="pref_category_server">Server configuration</string>
+    <string name="pref_category_app_configuration">App configuration</string>
+    <string name="pref_category_about">About</string>
+
+    <!-- Preferences -->
+    <string name="pref_server_protocol_title">Set protocol</string>
+    <string name="pref_server_protocol_default">HTTP</string>
+    <string name="pref_server_protocol_summary">HTTP</string>
+    <string name="pref_server_ip_title">Set IP</string>
+    <string name="pref_server_ip_default">192.168.1.86</string>
+    <string name="pref_server_port_title">Set port</string>
+    <string name="pref_server_port_default">3000</string>
+
+    <string name="pref_app_updates_title">App updates</string>
+    <string name="pref_app_updates_summary">If selected, this option will allow the application to check for latest versions</string>
+    <string name="pref_app_splash_title">Show splashscreen</string>
+    <string name="pref_app_splash_summary">Display logo animation on startup</string>
+
+    <string name="pref_about_curriculum_title">Curriculum</string>
+    <string name="pref_about_curriculum_summary">Take a look at my previous job experiences</string>
+    <string name="pref_about_github_title">GitHub</string>
+    <string name="pref_about_github_summary">Here you can find some projects I have open sourced</string>
+    <string name="title_activity_equalizer">EqualizerActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sound_cloud">SoundCloudActivity</string>
+</resources>

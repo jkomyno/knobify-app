@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="pref_key_server_configuration_category"
+        android:title="@string/pref_category_server">
+
+        <ListPreference
+            android:defaultValue="HTTP"
+            android:entries="@array/list_protocol_entries"
+            android:entryValues="@array/list_protocol_values"
+            android:key="pref_key_server_protocol"
+            android:summary="HTTP"
+            android:title="@string/pref_server_protocol_title"></ListPreference>
+
+        <EditTextPreference
+            android:defaultValue="@string/pref_server_ip_default"
+            android:key="pref_key_server_ip"
+            android:summary="@string/pref_server_ip_default"
+            android:title="@string/pref_server_ip_title"
+            android:singleLine="true"
+            android:inputType="numberDecimal"></EditTextPreference>
+
+        <EditTextPreference
+            android:defaultValue="@string/pref_server_port_default"
+            android:key="pref_key_server_port"
+            android:summary="@string/pref_server_port_default"
+            android:title="@string/pref_server_port_title"
+            android:singleLine="true"
+            android:inputType="number"></EditTextPreference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_key_app_configuration_category"
+        android:title="@string/pref_category_app_configuration">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="pref_key_app_updates"
+            android:summary="@string/pref_app_updates_summary"
+            android:title="@string/pref_app_updates_title" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="pref_key_app_splash"
+            android:summary="@string/pref_app_splash_summary"
+            android:title="@string/pref_app_splash_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_key_about_category"
+        android:title="@string/pref_category_about">
+        <Preference
+            android:summary="@string/pref_about_curriculum_summary"
+            android:title="@string/pref_about_curriculum_title">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.jkomyno.altervista.org/curriculum" />
+        </Preference>
+        <Preference
+            android:summary="@string/pref_about_github_summary"
+            android:title="@string/pref_about_github_title">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://www.github.com/jkomyno" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

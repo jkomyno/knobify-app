@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/eq_wrapper"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.jk0myn0.audio.equalizer.EqualizerActivity"
+    tools:showIn="@layout/activity_equalizer">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <LinearLayout
+                android:id="@+id/equalizerLinearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal" >
+
+                <!-- 50 Hz Equalizer Layout -->
+
+                <RelativeLayout
+                    android:id="@+id/equalizer50HzLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:paddingLeft="5dp" >
+
+                    <com.jk0myn0.audio.ui.VerticalSeekBar
+                        android:id="@+id/equalizer50Hz"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="30dp"
+                        android:max="31"
+                        android:progress="16" />
+
+                    <TextView
+                        android:id="@+id/txt50Hz"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/equalizer50Hz"
+                        android:layout_alignTop="@+id/equalizer50Hz"
+                        android:layout_marginTop="-25dp"
+                        android:text="50Hz"
+                        android:singleLine="true"
+                        android:ellipsize="marquee"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:id="@+id/txt50HzGain"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/equalizer50Hz"
+                        android:text="0dB"
+                        android:singleLine="true"
+                        android:ellipsize="marquee"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </RelativeLayout>
+
+                <!-- 130Hz Equalizer Bar -->
+
+                <RelativeLayout
+                    android:id="@+id/equalizer130HzLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" >
+
+                    <com.jk0myn0.audio.ui.VerticalSeekBar
+                        android:id="@+id/equalizer130Hz"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="30dp"
+                        android:max="31"
+                        android:progress="16" />
+
+                    <TextView
+                        android:id="@+id/txt130Hz"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/equalizer130Hz"
+                        android:layout_marginTop="-25dp"
+                        android:text="130Hz"
+                        android:singleLine="true"
+                        android:ellipsize="marquee"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:id="@+id/txt130HzGain"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/equalizer130Hz"
+                        android:text="0dB"
+                        android:singleLine="true"
+                        android:ellipsize="marquee"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </RelativeLayout>
+
+                <!-- 320Hz Equalizer Bar -->
+
+                <RelativeLayout
+                    android:id="@+id/equalizer320HzLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" >
+
+                    <com.jk0myn0.audio.ui.VerticalSeekBar
+                        android:id="@+id/equalizer320Hz"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="30dp"
+                        android:max="31"
+                        android:progress="16" />
+
+                    <TextView
+                        android:id="@+id/txt320Hz"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/equalizer320Hz"
+                        android:layout_marginTop="-25dp"
+                        android:text="320Hz"
+                        android:singleLine="true"
+                        android:ellipsize="marquee"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:id="@+id/txt320HzGain"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/equalizer320Hz"
+                        android:text="0dB"
+                        android:singleLine="true"
+                        android:ellipsize="marquee"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </RelativeLayout>
+
+                <!-- 800 Hz Equalizer Bar -->
+
+                <RelativeLayout
+                    android:id="@+id/equalizer800HzLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" >
+
+                    <com.jk0myn0.audio.ui.VerticalSeekBar
+                        android:id="@+id/equalizer800Hz"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="30dp"
+                        android:max="31"
+                        android:progress="16" />
+
+                    <TextView
+                        android:id="@+id/txt800Hz"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/equalizer800Hz"
+                        android:layout_marginTop="-25dp"
+                        android:text="800Hz"
+                        android:singleLine="true"
+                        android:ellipsize="marquee"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:id="@+id/txt800HzGain"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/equalizer800Hz"
+                        android:text="0dB"
+                        android:singleLine="true"
+                        android:ellipsize="marquee"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </RelativeLayout>
+
+                <!-- 2 kHz Equalizer Bar -->
+
+                <RelativeLayout
+                    android:id="@+id/equalizer2kHzLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" >
+
+                    <com.jk0myn0.audio.ui.VerticalSeekBar
+                        android:id="@+id/equalizer2kHz"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="30dp"
+                        android:max="31"
+                        android:progress="16" />
+
+                    <TextView
+                        android:id="@+id/txt2kHz"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/equalizer2kHz"
+                        android:layout_marginTop="-25dp"
+                        android:text="2kHz"
+                        android:singleLine="true"
+                        android:ellipsize="marquee"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:id="@+id/text2kHzGain"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/equalizer2kHz"
+                        android:text="0dB"
+                        android:singleLine="true"
+                        android:ellipsize="marquee"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </RelativeLayout>
+
+                <!-- 5 kHz Equalizer Layout -->
+
+                <RelativeLayout
+                    android:id="@+id/equalizer5kHzLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" >
+
+                    <com.jk0myn0.audio.ui.VerticalSeekBar
+                        android:id="@+id/equalizer5kHz"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="30dp"
+                        android:max="31"
+                        android:progress="16" />
+
+                    <TextView
+                        android:id="@+id/txt5kHz"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/equalizer5kHz"
+                        android:layout_marginTop="-25dp"
+                        android:text="5kHz"
+                        android:singleLine="true"
+                        android:ellipsize="marquee"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:id="@+id/txt5kHzGain"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/equalizer5kHz"
+                        android:text="0dB"
+                        android:singleLine="true"
+                        android:ellipsize="marquee"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </RelativeLayout>
+
+                <!-- 12.5 kHz Equalizer Layout -->
+
+                <RelativeLayout
+                    android:id="@+id/equalizer12_5kHzLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:paddingRight="5dp" >
+
+                    <com.jk0myn0.audio.ui.VerticalSeekBar
+                        android:id="@+id/equalizer12_5kHz"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="30dp"
+                        android:max="31"
+                        android:progress="16" />
+
+                    <TextView
+                        android:id="@+id/txt12_5kHz"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/equalizer12_5kHz"
+                        android:layout_marginTop="-25dp"
+                        android:text="12.5kHz"
+                        android:singleLine="true"
+                        android:ellipsize="marquee"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:id="@+id/txt12_5kHzGain"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/equalizer12_5kHz"
+                        android:text="0dB"
+                        android:singleLine="true"
+                        android:ellipsize="marquee"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/audio_fx_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/equalizerLinearLayout"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:id="@+id/bass_boost_title_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="35dp"
+                    android:text="Bass Boost"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <SeekBar
+                    android:id="@+id/bass_boost_seekbar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/bass_boost_title_text"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="100dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button2"
+        android:layout_alignTop="@+id/button"
+        android:layout_toRightOf="@+id/button"
+        android:layout_toEndOf="@+id/button" />
+
+</RelativeLayout>

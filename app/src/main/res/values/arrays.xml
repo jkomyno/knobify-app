@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_protocol_entries">
+        <item>HTTP</item>
+        <item>HTTPS</item>
+    </string-array>
+
+    <string-array name="list_protocol_values">
+        <item>HTTP</item>
+        <item>HTTPS</item>
+    </string-array>
+</resources>
